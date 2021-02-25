@@ -2,12 +2,12 @@
     "Name": "Emotion Category and Face Perception Task Optimized for Multivariate Pattern Analysis",
     "BIDSVersion": "1.2.0",
     "DatasetType": "raw",
-    "License": "CC-BY-SA-4.0",
+    "License": "CC0",
     "Authors": [
         "Isaac David",
         "Victor Olalde-Mathieu",
-        "Ana Y. Martínez",
-        "Lluviana Rodríguez-Vidal",
+        "Ana Y. Mart\u00ednez",
+        "Lluviana Rodr\u00edguez-Vidal",
         "Fernando A. Barrios"
     ],
     "Acknowledgments": "Special thanks to Erick H. Pasaye",
@@ -20,5 +20,5 @@
         "pending link",
         "authors, the title, year, journal"
     ],
-    "DatasetDOI": ""
+    "DatasetDOI": "10.18112/openneuro.ds003548.v1.0.0"
 }
