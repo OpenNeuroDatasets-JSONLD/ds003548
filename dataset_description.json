@@ -20,5 +20,6 @@
         "pending link",
         "authors, the title, year, journal"
     ],
-    "DatasetDOI": "10.18112/openneuro.ds003548.v1.0.0"
+    "DatasetDOI": "10.18112/openneuro.ds003548.v1.0.0",
+    "Acknowledgements": "Special thanks to Erick H. Pasaye"
 }
