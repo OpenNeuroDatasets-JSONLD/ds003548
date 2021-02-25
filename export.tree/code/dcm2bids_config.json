@@ -1,0 +1,67 @@
+{
+    "defaceTpl": "pydeface --outfile {dstFile} {srcFile}",
+    "descriptions": [
+        {
+            "dataType": "anat",
+            "modalityLabel": "T2w",
+            "criteria": {
+                "SeriesDescription": "Ax_T2_FSE*"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "criteria": {
+                "SeriesDescription": "*_T1_*"
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-rest",
+            "criteria": {
+                "SeriesDescription": "fMRI_RestState*"
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-emotionalfaces_run-1",
+            "criteria": {
+                "SeriesDescription": "tr_FMRI_1*"
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-emotionalfaces_run-2",
+            "criteria": {
+                "SeriesDescription": "tr_FMRI_2*"
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-emotionalfaces_run-3",
+            "criteria": {
+                "SeriesDescription": "tr_FMRI_3*"
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-emotionalfaces_run-4",
+            "criteria": {
+                "SeriesDescription": "tr_FMRI_4*"
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-emotionalfaces_run-5",
+            "criteria": {
+                "SeriesDescription": "tr_FMRI_5*"
+            }
+        }
+    ]
+}
