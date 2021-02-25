@@ -26,7 +26,7 @@ Echos were registered using a head-mounted 32-channel coil.
 | Slice orientation  | Axial | Axial or sagital | Axial |
 | Slices             | 35 | 176 | 35 |
 | Field of view      | 64×64     | 256×256 | 512x512 |
-| Voxel size         | (4 mm)^3 | (1 mm)^3 | (.5x.5x.4) mm^3 |
+| Voxel size         | (4 mm)^3 | (1 mm)^3 | .5x.5x.4 mm^3 |
 | Flip angle         | pi / 2      | 3*pi / 45 | 7*pi / 9 |
 | TR (ms)            | 2000  | 8.18 | 6255 |
 | TE (ms)            | 30    | 3.19 | 101.4 |
