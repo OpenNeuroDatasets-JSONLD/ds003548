@@ -21,16 +21,16 @@ acquired, in addition to a 10-minutes long _resting state_ fMRI before
 the task. Sequence parameters are described in the table.
 Echos were registered using a head-mounted 32-channel coil.
 
-| Parameter | EPI BOLD | T1w FSPGR |
-|--------------------|------------:|---:|
-| Slice orientation  | Axial | Axial or sagital |
-| Slices             | 35 | 176 |
-| Field of view      | 64×64     | 256×256 |
-| Voxel size         | (4 mm)^3 | (1mm)^3 |
-| Flip angle         | pi/2      | 3*pi/45 |
-| TR (ms)            | 2000  | 8.18 |
-| TE (ms)            | 30    | 3.19 |
-| TInv (ms)          |         | 450 |
+| Parameter | EPI BOLD | T1w FSPGR | T2w FSE |
+|----------------|--------------:|-----------------:|------------:|
+| Slice orientation  | Axial | Axial or sagital | Axial |
+| Slices             | 35 | 176 | 35 |
+| Field of view      | 64×64     | 256×256 | 512x512 |
+| Voxel size         | (4 mm)^3 | (1 mm)^3 | (.5x.5x.4) mm^3 |
+| Flip angle         | pi / 2      | 3*pi / 45 | 7*pi / 9 |
+| TR (ms)            | 2000  | 8.18 | 6255 |
+| TE (ms)            | 30    | 3.19 | 101.4 |
+| TInv (ms)          |         | 450 | |
 
 ## Stimuli and task
 
@@ -68,4 +68,4 @@ for scrambled and dim blocks (when no faces should have been
 perceived), the instruction was to simply report image change,
 alternating between buttons.
 
-More info [here](https://github.com/isacdaavid/emotional-faces-psychopy-task).
+Task files and responses available [here](https://github.com/isacdaavid/emotional-faces-psychopy-task).
