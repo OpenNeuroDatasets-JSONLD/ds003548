@@ -16,7 +16,9 @@
         "Institute of Neurobiology, UNAM",
         "CONACyT (CVU 891935)"
     ],
-    "ReferencesAndLinks": [],
+    "ReferencesAndLinks": [
+        "https://doi.org/10.1101/2021.04.04.438425"
+    ],
     "DatasetDOI": "10.18112/openneuro.ds003548.v1.0.0",
     "Acknowledgements": "Special thanks to Erick H. Pasaye and Leopoldo Gonz\u00e1lez-Santos"
 }
