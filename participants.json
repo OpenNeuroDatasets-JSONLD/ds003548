@@ -13,5 +13,15 @@
         "LongName": "Body mass index",
         "Units": "kilograms per squared meters",
         "TermURL": "http://purl.bioontology.org/ontology/SNOMEDCT/60621009"
+    },
+    "participant_id": {
+        "Annotations": {
+            "IsAbout": {
+                "TermURL": "nb:ParticipantID",
+                "Label": ""
+            },
+            "Identifies": "participant"
+        },
+        "Description": "There should have been a description here, but there wasn't. :("
     }
 }
